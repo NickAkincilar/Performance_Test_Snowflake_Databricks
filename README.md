@@ -1,7 +1,8 @@
 # Performance Test Comparison Snowflake vs. Databricks
 Running Performance test between Snowflake &amp; Databricks using 24 Billion row dataset
 
-### 1. Create an internal stage in Snowflake & Upload data files into the stage using Snowsight.
+### 1. Create an internal stage in Snowflake 
+Upload the 3 sample data files into the stage using Snowsight.
 
 ### 2. Ingest the Sample files in to your platform.
 
