@@ -110,6 +110,7 @@ ON true;
 ### 3. Upscale the 240K row contoso_sales_240K table to 24 Billion by replicating row 100K times
 
 ### 4. Run all 16 Queries 2 or 3 times to get the lowest number.
+Use the following [Queries](https://github.com/NickAkincilar/Performance_Test_Snowflake_Databricks/blob/main/code/GenerateData.py) to execute on each platform
 
 ### 5.** Optional *** Generate your own data instead of using the 240K row sample dataset.
 Use the following Python code in Databricks to generate a sample dataset that looks realistic.
