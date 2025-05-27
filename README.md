@@ -9,7 +9,7 @@ Upload the 3 sample data files into the stage using Snowsight.
 ### 2. Setup the environment by creating tables & ingesting the data.
 
 Test includes 3 files. Sales, Stores & Products. Use the following SQL Script to build the environment. 
-[Sample Files](https://github.com/NickAkincilar/Performance_Test_Snowflake_Databricks/tree/main/SampleFiles)
+[Setup.sql](https://github.com/NickAkincilar/Performance_Test_Snowflake_Databricks/blob/main/code/setup.sql)
 
 ### 3. Upscale the 240K row contoso_sales_240K table to 24 Billion by replicating row 100K times
 
