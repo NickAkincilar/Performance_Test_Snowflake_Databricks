@@ -109,10 +109,13 @@ ON true;
 
 ### 3. Upscale the 240K row contoso_sales_240K table to 24 Billion by replicating row 100K times
 
-### 4. Run all 16 Queries 2 or 3 times and use a median number.
+### 4. Run all 16 Queries 2 or 3 times to get the lowest number.
+
+### 5.** Optional *** Generate your own data instead of using the 240K row sample dataset.
+Use the following Python code in Databricks to generate a sample dataset that looks realistic.
+
 
 ``` sql
-
 
 alter session set use_cached_result = false;
 
