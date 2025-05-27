@@ -4,6 +4,8 @@ Running Performance test between Snowflake &amp; Databricks using 24 Billion row
 ### 1. Create an internal stage in Snowflake 
 Upload the 3 sample data files into the stage using Snowsight.
 
+[Sample Files](https://github.com/NickAkincilar/Performance_Test_Snowflake_Databricks/tree/main/SampleFiles)
+
 ### 2. Ingest the Sample files in to your platform.
 
 Test includes 3 files. Sales, Stores & Products. For Snowflake, Upload these files to an internal stage first.
