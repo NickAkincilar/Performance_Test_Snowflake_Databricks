@@ -325,7 +325,7 @@ WITH daily_orders AS (
         current_timestamp() ts,
         f.order_date,
         l.city,
-        COUNT(DISTINCT f.store_id , f.product_id , f.order_date) AS daily_distinct_orders
+        COUNT(DISTINCT f.store_id || f.product_id || f.order_date) AS daily_distinct_orders
     FROM 
 contoso_sales_24b f
     JOIN 
